@@ -10,7 +10,7 @@ from django.template.loader import get_template
 from django.template import Context
   
   
-#################### index#######################################
+#################### index #######################################
 def index(request):
     return render(request, 'user/index.html', {'title':'index'})
   
